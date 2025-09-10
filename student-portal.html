@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+    <script src="student.js"defer></script>
+</head>
+<body>
+    <nav class="navbar bg-dark text-white">
+        <h1>Student Portal</h1>
+    </nav>
+    <div class="mt-5 d-flex justify-content-around">
+        <div class="d-flex gap-2">
+        <button class="btn btn-dark btn-sm " id="all">All Student</button>
+        <button class="btn btn-info btn-sm " id="male">Male Student</button>
+        <button class="btn btn-warning btn-sm " id="female">Female Student</button>   
+        </div>
+        <div class="d-flex gap-2">
+        <button class="btn btn-success btn-sm" id="pass">Pass Student</button>
+        <button class="btn btn-warning btn-sm" id="fail">Fail Student</button>   
+        </div>
+
+        <div class="d-flex gap-2">
+            <input type="text" id="uservalue" class="form-control" placeholder="Enter name">
+            <button class="btn btn-warning btn-sm" id="btn">Submit</button>
+        </div>
+
+    </div>
+
+    <section class="mt-4">
+        <table class="table m-auto w-75">
+            <tr>
+                <th>stud id</th>
+                <th>stud name</th>
+                <th>stud gender</th>
+                <th>stud score</th>
+                <th>stud mailid</th>
+            </tr>
+            <tbody id="tabvalue">
+
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
